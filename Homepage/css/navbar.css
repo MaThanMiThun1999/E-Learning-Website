@@ -1,0 +1,25 @@
+.navcustom{
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 10px 5px 35px 0px rgba(0,0,0,0.75);
+    background-image: linear-gradient(
+    230deg,
+    hsl(240deg 2% 75%) 1%,
+    hsl(240deg 1% 67%) 43%,
+    hsl(240deg 1% 59%) 50%,
+    hsl(240deg 1% 50%) 51%,
+    hsl(240deg 0% 42%) 51%,
+    hsl(240deg 0% 34%) 49%,
+    hsl(240deg 0% 25%) 49%,
+    hsl(240deg 0% 17%) 50%,
+    hsl(240deg 0% 8%) 57%,
+    hsl(0deg 0% 0%) 99%
+  );
+  }
+  
+#a1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: whitesmoke;
+  }

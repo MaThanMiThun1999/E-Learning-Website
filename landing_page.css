@@ -1,0 +1,509 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}    
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.bg-img-1{
+  background-image: url(./images/web_develop.jpg);
+}
+
+.bg-img-2{
+  background-image: url(./images/computer.jpg);
+}
+
+.bg-img-3{
+  background-image: url(./images/ai_develop.jpg);
+}
+
+
+.carousel-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* custom css start  */
+
+.navcustom{
+  box-sizing: border-box;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 10px 5px 35px 0px rgba(0,0,0,0.75);
+  background-image: linear-gradient(
+  230deg,
+  hsl(240deg 2% 75%) 1%,
+  hsl(240deg 1% 67%) 43%,
+  hsl(240deg 1% 59%) 50%,
+  hsl(240deg 1% 50%) 51%,
+  hsl(240deg 0% 42%) 51%,
+  hsl(240deg 0% 34%) 49%,
+  hsl(240deg 0% 25%) 49%,
+  hsl(240deg 0% 17%) 50%,
+  hsl(240deg 0% 8%) 57%,
+  hsl(0deg 0% 0%) 99%
+);
+}
+
+#a1{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+.carouselcustom{
+  margin-bottom: 0px;
+}
+
+#herocustom{
+  margin-top: 0px;
+}
+
+#hrcustom{
+  margin: 40px 0px;
+}
+
+#hrcustom1{
+  margin: 40px 0px;
+}
+
+#hrcustom2{
+  margin: 40px 0px;
+}
+
+#hrcustom3{
+  margin: 40px 0px;
+}
+
+#cardcustom{
+  background-image: linear-gradient(
+  45deg,
+  hsl(60deg 1% 33%) 0%,
+  hsl(195deg 6% 36%) 11%,
+  hsl(198deg 13% 40%) 22%,
+  hsl(199deg 20% 43%) 33%,
+  hsl(198deg 26% 47%) 44%,
+  hsl(198deg 33% 50%) 56%,
+  hsl(198deg 44% 53%) 67%,
+  hsl(197deg 58% 55%) 78%,
+  hsl(196deg 73% 57%) 89%,
+  hsl(195deg 91% 57%) 100%
+);
+}
+
+#cardcustom p{
+  font-weight:bold;
+}
+
+.cardimg1{
+  background-image: url(./images/social-media.png)!important;
+ 
+}
+
+.cardimg2{
+  background-image: url(./images/spaceship.png)!important;
+}
+
+.cardimg3{
+  background-image: url(./images/target.png);
+}
+
+.cardimg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* animation button */
+
+.button1 {
+  background-image: linear-gradient(
+  180deg,
+  hsl(60deg 0% 53%) 0%,
+  hsl(60deg 0% 47%) 21%,
+  hsl(60deg 0% 41%) 30%,
+  hsl(60deg 1% 35%) 39%,
+  hsl(60deg 1% 29%) 46%,
+  hsl(60deg 1% 23%) 54%,
+  hsl(60deg 1% 18%) 61%,
+  hsl(60deg 1% 13%) 69%,
+  hsl(60deg 2% 8%) 79%,
+  hsl(0deg 0% 0%) 100%
+);
+  border: none;
+  font-size: 1.2em;
+  border-radius: 1.5em;
+  padding: 4px;
+  transition: border-top-left-radius 0.2s ease-in, 
+  border-top-right-radius 0.2s ease-in 0.15s, 
+  border-bottom-right-radius 0.2s ease-in 0.3s,
+  border-bottom-left-radius 0.2s ease-in 0.45s, 
+  padding 0.2s ease-in;
+  position: relative;
+}
+
+.button__int1 {
+  background-color: #0B5ED7;
+  color: white;
+  border-radius: 1.3em;
+  padding: 10px 50px;
+  transition: all 0.2s ease-in,
+  border-top-left-radius 0.2s ease-in, 
+  border-top-right-radius 0.2s ease-in 0.15s, 
+  border-bottom-right-radius 0.2s ease-in 0.3s,
+  border-bottom-left-radius 0.2s ease-in 0.45s,
+  padding 0.2s ease-in;
+  font-weight: 600;
+  z-index: -1;
+}
+
+.button1:active .button__int1 {
+  padding: 10px 30px;
+}
+
+.button1:hover {
+  border-radius: 0;
+}
+
+.button1:hover .button__int1 {
+  border-radius: 0;
+}
+
+ /* animation button2 */
+
+ .button {
+  background-image: linear-gradient(
+  0deg,
+  hsl(60deg 5% 11%) 0%,
+  hsl(196deg 47% 23%) 21%,
+  hsl(196deg 56% 30%) 30%,
+  hsl(196deg 61% 35%) 39%,
+  hsl(195deg 64% 39%) 46%,
+  hsl(195deg 66% 43%) 54%,
+  hsl(195deg 67% 47%) 61%,
+  hsl(195deg 69% 51%) 69%,
+  hsl(195deg 80% 54%) 79%,
+  hsl(195deg 91% 57%) 100%
+);
+  border: none;
+  font-size: 1.2em;
+  border-radius: 1.5em;
+  padding: 4px;
+  transition: border-top-left-radius 0.2s ease-in, 
+  border-top-right-radius 0.2s ease-in 0.15s, 
+  border-bottom-right-radius 0.2s ease-in 0.3s,
+  border-bottom-left-radius 0.2s ease-in 0.45s, 
+  padding 0.2s ease-in;
+  position: relative;
+}
+
+.button__int {
+  background-color: #6C757D;
+  color: white;
+  border-radius: 1.3em;
+  padding: 10px 50px;
+  transition: all 0.2s ease-in,
+  border-top-left-radius 0.2s ease-in, 
+  border-top-right-radius 0.2s ease-in 0.15s, 
+  border-bottom-right-radius 0.2s ease-in 0.3s,
+  border-bottom-left-radius 0.2s ease-in 0.45s,
+  padding 0.2s ease-in;
+  font-weight: 600;
+  z-index: -1;
+}
+
+.button:active .button__int {
+  padding: 10px 30px;
+}
+
+.button:hover {
+  border-radius: 0;
+}
+
+.button:hover .button__int {
+  border-radius: 0;
+}
+
+
+/* card effect */
+
+h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* card end  */
+
+/* span  */
+
+#spancnd{
+  font-size: larger;
+}
+
+/* footer start  */
+
+.parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.child:hover {
+  background-color: white;
+  background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 30deg);
+  transform: perspective(180px) rotateX(60deg) translateY(2px);
+  box-shadow: 0px 10px 10px rgb(1, 49, 182);
+}
+
+.buttonf {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.buttonf:hover {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg) translateY(2px);
+  border-radius: 50%;
+}
+
+/* footer end  */
+
+/* copyright */
+
+#span-mathan-mithun{
+  font-weight: 700;
+}
+
+.footcopy{
+  text-align: center;
+}
+
+/* Smooth scroll stuff */
+
+
+.js-cont {
+  align-items: center;
+}
+
+.js-scroll {
+  will-change: transform;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
