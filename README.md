@@ -27,3 +27,4 @@ Technologies used in the project:
 *   Bootstrap
 *   JavaScript
 *   PHP
+*   MySQL
