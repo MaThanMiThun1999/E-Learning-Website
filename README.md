@@ -1,6 +1,15 @@
-<p align="center"><img src="https://socialify.git.ci/MaThanMiThun1999/E-Learning-Website/image?font=Bitter&amp;forks=1&amp;issues=1&amp;logo=https%3A%2F%2Fia600607.us.archive.org%2F6%2Fitems%2Fpython_20231114_1401%2Fphp.png&amp;name=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+<p align="center"><img src="https://mathanmithun.neocities.org/mathan_mithun/assets/img/portfolio/web/tamilcodelab_web/tamilcodelabweb_details_1.png" alt="project-image"></p>
 
 <p id="description">Discover a comprehensive E-learning platform tailored for the Tamil-speaking community offering a wide array of programming courses. Accessible on various devices from mobile phones to laptops and even TVs our fully responsive website ensures a seamless learning experience.</p>
+
+<h2>Project Screenshots:</h2>
+<h3>Mockup-1 :</h3>
+
+<img src="https://mathanmithun.neocities.org/mathan_mithun/assets/img/portfolio/web/tamilcodelab_web/tamilcodelabweb_details_2.png" alt="mockup-1">
+
+<h3>Mockup-2 :</h3>
+
+<img src="https://mathanmithun.neocities.org/mathan_mithun/assets/img/portfolio/web/tamilcodelab_web/tamilcodelabweb_details_3.png" alt="mockup-2">
 
 <h2>🚀 Demo</h2>
 
